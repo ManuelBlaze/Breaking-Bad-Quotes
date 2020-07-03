@@ -1,3 +1,6 @@
+<h1>Breaking Bad - Frases</h1>
+Proyecto de practica, utilización de Api React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
