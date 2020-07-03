@@ -11,18 +11,28 @@ html {
   height: 100%;
 }
 body {
-  background-image: url(logo.svg), -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
-  min-height: 100%;
-  background-position: center 80px, center center;
-  background-repeat:no-repeat;
-  background-size: 300px, 100% 100%;
+  background: rgb(0,125,53);
+  background: linear-gradient(90deg, rgba(0,125,53,1) 0%, rgba(0,125,53,1) 40%, rgba(15,87,78,1) 100%);
   display: flex;
   align-items: flex-end;
+  width: 95%;
+  margin: 0 auto;
 }
 @media (min-width:768px) {
   body {
     align-items: center;
-    background-size: 400px, 100% 100%;
+    width: 100%;
+  }
+}
+
+.App-logo {
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media (min-width: 480px) {
+  .App-logo {
+    width: auto;
   }
 }
 
